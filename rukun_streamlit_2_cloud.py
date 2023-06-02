@@ -53,7 +53,7 @@ trainset=load_trainset()
 
 
 # Sidebar
-st.sidebar.title('Anime Recommendation')
+st.sidebar.title('AniMetrics')
 test_subject = st.sidebar.text_input('Enter your username')
 submit_button = st.sidebar.button('Get Recommendations')
 
