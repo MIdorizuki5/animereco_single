@@ -16,7 +16,7 @@ from numpy import load
 import gdown
 
 # Page configuration
-st.set_page_config(page_title='Anime Recommendation', layout='centered')
+st.set_page_config(page_title='AniMetrics', layout='centered')
 
 url_1 = "https://drive.google.com/uc?export=download&id=1a0o8xPkGaw_bmni20ZngNcHxL9PzuzAF"
 output_1 = "similarity_matrix_small.npy"
